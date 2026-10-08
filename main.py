@@ -34,8 +34,8 @@ log = logging.getLogger("srt-bot")
 # --------------------------------------------------------------------------
 # Config
 # --------------------------------------------------------------------------
-TELEGRAM_BOT_TOKEN = os.environ.get("8871786955:AAGy7aWgp8OyKIpBUb1pFV6O9JsYleDs8NQ")
-GEMINI_API_KEY = os.environ.get("AQ.Ab8RN6JnfAgP4wunO1fYY278tuK_3KIxwmZIQsQs6PeYJXSh_Q")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 MODEL_NAME = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 
 try:
